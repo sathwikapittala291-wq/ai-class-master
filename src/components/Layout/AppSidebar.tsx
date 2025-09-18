@@ -111,7 +111,7 @@ export function AppSidebar() {
             </div>
             {!isCollapsed && (
               <div>
-                <h2 className="text-sidebar-foreground font-semibold text-sm">EduManage</h2>
+                <h2 className="text-sidebar-foreground font-semibold text-sm">SmartEdu</h2>
                 <p className="text-sidebar-foreground/70 text-xs capitalize">{user.role} Portal</p>
               </div>
             )}

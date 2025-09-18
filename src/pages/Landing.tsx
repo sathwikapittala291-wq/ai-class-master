@@ -68,7 +68,7 @@ export default function Landing() {
                 <GraduationCap className="w-6 h-6 text-white" />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                EduManage
+                SmartEdu
               </h1>
             </div>
             <div className="flex items-center gap-4">
@@ -155,7 +155,7 @@ export default function Landing() {
                 Transform Your Educational Institution
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Join thousands of schools worldwide using EduManage to streamline operations, 
+                Join thousands of schools worldwide using SmartEdu to streamline operations, 
                 improve engagement, and enhance learning outcomes through intelligent automation.
               </p>
               <div className="space-y-4">
@@ -237,13 +237,13 @@ export default function Landing() {
                 <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
                   <GraduationCap className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold">EduManage</h3>
+                <h3 className="text-xl font-bold">SmartEdu</h3>
               </div>
               <p className="text-muted-foreground mb-4">
                 The complete AI-powered school management solution for modern educational institutions.
               </p>
               <p className="text-sm text-muted-foreground">
-                © 2025 EduManage. Built for SIH 2025. Production-ready educational technology.
+                © 2025 SmartEdu. Built for SIH 2025. Production-ready educational technology.
               </p>
             </div>
             

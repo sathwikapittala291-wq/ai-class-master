@@ -26,7 +26,7 @@ export default function Login() {
       await login(email, password);
       toast({
         title: "Login Successful",
-        description: "Welcome back to EduManage!",
+        description: "Welcome back to SmartEdu!",
       });
       navigate('/dashboard');
     } catch (error) {
@@ -79,7 +79,7 @@ export default function Login() {
             <div className="w-12 h-12 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center">
               <GraduationCap className="w-7 h-7 text-white" />
             </div>
-            <h1 className="text-3xl font-bold">EduManage</h1>
+            <h1 className="text-3xl font-bold">SmartEdu</h1>
           </Link>
           <p className="mt-2 text-white/80">Sign in to your account</p>
         </div>

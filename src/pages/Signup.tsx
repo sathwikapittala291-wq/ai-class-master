@@ -39,7 +39,7 @@ export default function Signup() {
       await signup(email, password, name, role);
       toast({
         title: "Account Created",
-        description: "Welcome to EduManage! Your account has been created successfully.",
+        description: "Welcome to SmartEdu! Your account has been created successfully.",
       });
       navigate('/dashboard');
     } catch (error) {
@@ -62,7 +62,7 @@ export default function Signup() {
             <div className="w-12 h-12 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center">
               <GraduationCap className="w-7 h-7 text-white" />
             </div>
-            <h1 className="text-3xl font-bold">EduManage</h1>
+            <h1 className="text-3xl font-bold">SmartEdu</h1>
           </Link>
           <p className="mt-2 text-white/80">Create your account</p>
         </div>
@@ -72,7 +72,7 @@ export default function Signup() {
           <CardHeader className="space-y-1">
             <CardTitle className="text-2xl text-center">Get Started</CardTitle>
             <CardDescription className="text-center">
-              Join thousands of educators using EduManage
+              Join thousands of educators using SmartEdu
             </CardDescription>
           </CardHeader>
           <CardContent>
